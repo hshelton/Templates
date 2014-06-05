@@ -48,7 +48,7 @@ h6
 body
 
 {
-	background-image: url("steel_wall1.png");
+	background-image: url("lightwood2.png");
 }
 button
 {
@@ -160,13 +160,34 @@ button:hover
 
 }
 
-p
+.sticky-normal
 {
-	padding: 5px 5px;
-	background-color:#D8CEF6;
-	border-radius:5px;
-	font-family:sans-serif;
-	box-shadow: 0px 5px 3px #000000;
-	max-width: 920px;
+	background-image:url("sticky-yellow.png");
+	
+	min-width:640px;
+	max-width:640px;
+	min-height:480px;
+	max-height:533px;
+	
+	padding-top:50px;
 
+
+
+}
+
+.sticky-normal:hover
+{
+	cursor:pointer;
+	background-image:url("sticky-yellow-selected.png");
+}
+
+.sticky
+{
+ transform: rotate(357deg);
+
+ font-family:cursive;
+ font-style:italic;
+
+ max-width:480px;
+ padding-right:50px;
 }
